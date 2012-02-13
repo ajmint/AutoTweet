@@ -1,0 +1,16 @@
+TO SET UP THIS SCRIPT, YOU WILL NEED:
+
+1.  A machine which is up at all the times you specify (ideally a web server),
+  	running this script on a cron job at those times (ideally * * * * * for max flexibility).
+	
+2.	A Twitter application; create one at <https://dev.twitter.com/apps/new>;
+    you'll need to put in the four keys; insert them into lines 145-148:
+
+        $consumerKey  = '';
+        $consumerSecret = '';
+        $oAuthToken		= '';
+        $oAuthSecret	= '';
+    
+3.  abraham's twitteroauth.php and OAuth.php, from
+    <https://github.com/abraham/twitteroauth/tree/master/twitteroauth>;
+    put them in the same directory.
