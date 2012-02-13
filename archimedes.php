@@ -118,8 +118,6 @@ switch ($day) {
 
 }
 
-}
-
 if ($tweet) {
 
 	if (strlen($tweet) > 140) {
